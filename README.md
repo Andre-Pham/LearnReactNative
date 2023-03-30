@@ -58,6 +58,10 @@ iOS: control + command + z
 
 Android: command + m
 
+#### Adding TypeScript
+
+https://docs.expo.dev/guides/typescript/
+
 ## React Native CLI
 
 Set this up if you want to use native components from iOS and Android without releasing to the web.
