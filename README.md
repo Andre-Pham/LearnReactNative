@@ -38,3 +38,10 @@ Then run.
 ```
 npx react-native run-android
 ```
+
+#### Running Metro
+
+```
+npx react-native start
+```
+
