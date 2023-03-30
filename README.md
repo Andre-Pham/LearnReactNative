@@ -13,6 +13,12 @@ Tutorial: https://www.youtube.com/watch?v=0-S5a0eXPoc
 
 https://stackoverflow.com/a/38847005
 
+## Docs
+
+#### Components
+
+https://reactnative.dev/docs/components-and-apis
+
 ## Expo Notes
 
 Set this up if you want to release to the web, along with iOS and Android.
