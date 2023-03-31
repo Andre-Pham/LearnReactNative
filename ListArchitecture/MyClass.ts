@@ -1,21 +1,19 @@
 
-class MyClass {
+class ToDoList {
 
-    private text: string;
+    private toDoList: string[] = ["Item1", "Item2"]
 
-    constructor(text: string) {
-        this.text = text
+    constructor() { }
+
+    public addItem(text: string) {
+        this.toDoList.push(text);
+        console.log("The list now has " + this.toDoList.length + " items")
     }
 
-    public setText(text: string) {
-        this.text = text
-        console.log("this.text = " + this.text)
-    }
-
-    public getText(): string {
-        return this.text
+    public getList(): string[] {
+        return this.toDoList;
     }
 
 }
 
-export default MyClass
+export default ToDoList

@@ -1,25 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import MyClass from './MyClass';
-import PillButton from './PillButton';
-import ViewOne from './ViewOne';
-
-/*
-The issue is that the views are showing the hooks - there's nothing about the object that's being shown.
-If I wanted it to behave correctly I would need to update the hook after the object is updated.
-*/
+import { StyleSheet, Text, TextInput, View } from 'react-native';
+import AddView from './AddView';
+import ListComponent from './ListComponent';
 
 export default function App() {
-  let state = new MyClass("Starting Value")
-
   return (
     <View style={styles.container}>
-      <ViewOne state={state}/>
+      <ListComponent />
 
-      <ViewOne state={state}/>
-
-      <Text style={styles.text}>{state.getText()}</Text>
+      <AddView />
     </View>
   );
 }
@@ -31,7 +19,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  text: {
-    color: 'red'
-  }
 });
