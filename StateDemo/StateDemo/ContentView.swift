@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var state = MyClass(text: "Starting Text")
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            InputView(state: self.state)
+            
+            InputView(state: self.state)
+            
+            Text(self.state.text)
+                .foregroundColor(.red)
         }
         .padding()
     }

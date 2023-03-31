@@ -19,9 +19,7 @@ export default function App() {
 
       <ViewOne state={state}/>
 
-      <Text>{state.getText()}</Text>
-
-      <PillButton label='Log Text' onPress={() => {console.log(state.getText())}}></PillButton>
+      <Text style={styles.text}>{state.getText()}</Text>
     </View>
   );
 }
@@ -33,4 +31,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    color: 'red'
+  }
 });

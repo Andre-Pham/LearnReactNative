@@ -18,8 +18,7 @@ const ViewOne: FC<Props> = ({ state }) => {
 
     return (
         <View>
-            <Text>{shownText}</Text>
-            <ViewTwo text={"Props: " + shownText}/>
+            <Text>{"TEXT: " + shownText}</Text>
             <TextInput
                 style={styles.input}
                 onChangeText={setShownText}
