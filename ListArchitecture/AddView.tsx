@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import { StyleSheet, Text, TextInput, View } from 'react-native';
 import PillButton from './PillButton';
 import { useState } from 'react';
-import Model from './Model';
+import Model, { incremented } from './Model';
 
 const AddView: FC = () => {
 
@@ -10,6 +10,7 @@ const AddView: FC = () => {
 
   const addItem = (item: string) => {
     Model.toDoList.addItem(item)
+    Model.store.dispatch(incremented())
   }
 
   return (
