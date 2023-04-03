@@ -21,9 +21,9 @@ const ListComponent: FC = () => {
   })
 
   return (
-    <View>
+    <>
       {listComponents}
-    </View>
+    </>
   )
 };
 
