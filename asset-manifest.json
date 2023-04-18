@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/learnreactnative/static/js/main.a6b6715e.js",
-    "static/js/391.5b46663d.js": "/learnreactnative/static/js/391.5b46663d.js",
-    "favicon.ico": "/learnreactnative/favicon.ico",
-    "index.html": "/learnreactnative/index.html",
-    "favicon-32.png": "/learnreactnative/favicon-32.png",
-    "favicon-16.png": "/learnreactnative/favicon-16.png",
-    "manifest.json": "/learnreactnative/manifest.json",
-    "serve.json": "/learnreactnative/serve.json",
-    "main.a6b6715e.js.map": "/learnreactnative/static/js/main.a6b6715e.js.map",
-    "391.5b46663d.js.map": "/learnreactnative/static/js/391.5b46663d.js.map"
+    "main.js": "/LearnReactNative/static/js/main.a6b6715e.js",
+    "static/js/391.5b46663d.js": "/LearnReactNative/static/js/391.5b46663d.js",
+    "favicon.ico": "/LearnReactNative/favicon.ico",
+    "index.html": "/LearnReactNative/index.html",
+    "favicon-32.png": "/LearnReactNative/favicon-32.png",
+    "favicon-16.png": "/LearnReactNative/favicon-16.png",
+    "manifest.json": "/LearnReactNative/manifest.json",
+    "serve.json": "/LearnReactNative/serve.json",
+    "main.a6b6715e.js.map": "/LearnReactNative/static/js/main.a6b6715e.js.map",
+    "391.5b46663d.js.map": "/LearnReactNative/static/js/391.5b46663d.js.map"
   },
   "entrypoints": [
     "static/js/391.5b46663d.js",
